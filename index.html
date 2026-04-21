@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Firi's Blog | 个人主页</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --bg-color: #f8fafc;
+            --text-color: #1e293b;
+            --card-bg: #ffffff;
+        }
+
+        /* 基础样式 */
+        body {
+            font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* 导航栏 */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+
+        /* 个人简介区 */
+        header {
+            margin: 4rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .badge {
+            background: #dbeafe;
+            color: #1e40af;
+            padding: 0.2rem 0.8rem;
+            border-radius: 999px;
+            font-size: 0.9rem;
+        }
+
+        /* 文章/项目列表 */
+        .section-title {
+            font-size: 1.2rem;
+            border-left: 4px solid var(--primary-color);
+            padding-left: 1rem;
+            margin: 3rem 0 1.5rem;
+        }
+
+        .card {
+            background: var(--card-bg);
+            padding: 1.5rem;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+            margin-bottom: 1.5rem;
+            transition: transform 0.2s;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+        }
+
+        .card h3 {
+            margin-top: 0;
+            color: var(--primary-color);
+        }
+
+        .tag {
+            font-size: 0.8rem;
+            background: #f1f5f9;
+            padding: 0.1rem 0.5rem;
+            margin-right: 0.5rem;
+            border-radius: 4px;
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 5rem;
+            padding-bottom: 2rem;
+            color: #64748b;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <nav>
+            <div class="logo">Firi.me</div>
+            <div>
+                <a href="#" style="margin-left: 1rem; text-decoration: none; color: inherit;">项目</a>
+                <a href="#" style="margin-left: 1rem; text-decoration: none; color: inherit;">归档</a>
+            </div>
+        </nav>
+
+        <header>
+            <h1>你好，我是 Firi 👋</h1>
+            <p>
+                <span class="badge">CS 本科在读 / 大三</span>
+                <span class="badge">Java & Python 开发者</span>
+            </p>
+            <p style="color: #64748b; max-width: 600px; margin: 1rem auto;">
+                专注于后端开发与 AI 应用。目前正在探索基于 LLM 的文档分析工具，热爱硬件调优，偶尔在《绝地潜兵2》里拯救银河。
+            </p>
+        </header>
+
+        <h2 class="section-title">精选项目</h2>
+        
+        <div class="card">
+            <h3>LLM 多文档智能分析助手</h3>
+            <p>基于 Python 与 DashScope API 开发的文档处理工具，支持多格式文档解析与自动化摘要生成。</p>
+            <div>
+                <span class="tag">Python</span>
+                <span class="tag">NLP</span>
+                <span class="tag">DashScope</span>
+            </div>
+        </div>
+
+        <div class="card">
+            <h3>RTX 3060 Laptop 性能优化实践</h3>
+            <p>深入研究显卡电压曲线调整与显存超频，在保持低功耗的同时实现游戏帧数的稳定提升。</p>
+            <div>
+                <span class="tag">Hardware</span>
+                <span class="tag">Optimization</span>
+            </div>
+        </div>
+
+        <h2 class="section-title">最新文章</h2>
+        
+        <div class="card">
+            <h3>Spring Boot + MyBatis 快速上手指南</h3>
+            <p>总结了在校期间参与的 Web 开发项目中，关于持久层框架配置与优化的实战经验...</p>
+            <small style="color: #94a3b8;">发布于 2026年4月</small>
+        </div>
+
+        <div class="card">
+            <h3>寝室里的“绿意”：绿萝与多肉养护心经</h3>
+            <p>作为一名程序员，如何在干燥的寝室环境下照顾好这些绿色伙伴？分享一些浇水与光照的心得。</p>
+            <small style="color: #94a3b8;">发布于 2026年3月</small>
+        </div>
+
+        <footer>
+            © 2026 Firi. Built with ❤️ and HTML/CSS.
+        </footer>
+    </div>
+
+</body>
+</html>
