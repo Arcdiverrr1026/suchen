@@ -1,0 +1,11 @@
+transaction_id,items
+1,a | c | e
+2,b | d
+3,b | c
+4,a | b | c | d
+5,a | b
+6,b | c
+7,a | b
+8,a | b | c | e
+9,a | b | c
+10,a | c | e
