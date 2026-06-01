@@ -1,0 +1,247 @@
+{
+  "order_rows": 41080,
+  "type_rows": 158,
+  "transactions": 9356,
+  "unique_goods_in_orders": 158,
+  "unique_goods_in_type_table": 158,
+  "duplicate_order_rows_after_cleaning": 0,
+  "unmapped_goods": [
+    "保管产品"
+  ],
+  "unmapped_order_rows": 82,
+  "basket_size_min": 1,
+  "basket_size_q1": 2.0,
+  "basket_size_median": 3.0,
+  "basket_size_mean": 4.390765284309534,
+  "basket_size_q3": 6.0,
+  "basket_size_max": 32,
+  "top_goods": [
+    {
+      "Goods": "全脂牛奶",
+      "Types": "饮料",
+      "count": 2513,
+      "transaction_count": 2513,
+      "support": 0.26859769132107736
+    },
+    {
+      "Goods": "其他蔬菜",
+      "Types": "果蔬",
+      "count": 1903,
+      "transaction_count": 1903,
+      "support": 0.20339888841385206
+    },
+    {
+      "Goods": "面包卷",
+      "Types": "西点",
+      "count": 1809,
+      "transaction_count": 1809,
+      "support": 0.1933518597691321
+    },
+    {
+      "Goods": "苏打",
+      "Types": "饮料",
+      "count": 1715,
+      "transaction_count": 1715,
+      "support": 0.18330483112441215
+    },
+    {
+      "Goods": "酸奶",
+      "Types": "食品类",
+      "count": 1372,
+      "transaction_count": 1372,
+      "support": 0.1466438648995297
+    },
+    {
+      "Goods": "瓶装水",
+      "Types": "饮料",
+      "count": 1087,
+      "transaction_count": 1087,
+      "support": 0.11618212911500642
+    },
+    {
+      "Goods": "根茎类蔬菜",
+      "Types": "果蔬",
+      "count": 1072,
+      "transaction_count": 1072,
+      "support": 0.1145788798631894
+    },
+    {
+      "Goods": "热带水果",
+      "Types": "果蔬",
+      "count": 1032,
+      "transaction_count": 1032,
+      "support": 0.11030354852501069
+    },
+    {
+      "Goods": "购物袋",
+      "Types": "百货",
+      "count": 969,
+      "transaction_count": 969,
+      "support": 0.10356990166737923
+    },
+    {
+      "Goods": "香肠",
+      "Types": "肉类",
+      "count": 924,
+      "transaction_count": 924,
+      "support": 0.09876015391192818
+    },
+    {
+      "Goods": "糕点",
+      "Types": "西点",
+      "count": 875,
+      "transaction_count": 875,
+      "support": 0.09352287302265926
+    },
+    {
+      "Goods": "柑橘类水果",
+      "Types": "果蔬",
+      "count": 814,
+      "transaction_count": 814,
+      "support": 0.08700299273193672
+    },
+    {
+      "Goods": "报纸",
+      "Types": "百货",
+      "count": 785,
+      "transaction_count": 785,
+      "support": 0.08390337751175717
+    },
+    {
+      "Goods": "仁果类水果",
+      "Types": "果蔬",
+      "count": 744,
+      "transaction_count": 744,
+      "support": 0.07952116289012398
+    },
+    {
+      "Goods": "水果/蔬菜汁",
+      "Types": "饮料",
+      "count": 711,
+      "transaction_count": 711,
+      "support": 0.07599401453612654
+    },
+    {
+      "Goods": "酸奶油",
+      "Types": "米粮调料",
+      "count": 705,
+      "transaction_count": 705,
+      "support": 0.07535271483539974
+    },
+    {
+      "Goods": "黑面包",
+      "Types": "西点",
+      "count": 638,
+      "transaction_count": 638,
+      "support": 0.06819153484395041
+    },
+    {
+      "Goods": "本地蛋类",
+      "Types": "肉类",
+      "count": 624,
+      "transaction_count": 624,
+      "support": 0.06669516887558785
+    },
+    {
+      "Goods": "冷冻热狗肠",
+      "Types": "肉类",
+      "count": 580,
+      "transaction_count": 580,
+      "support": 0.061992304403591277
+    },
+    {
+      "Goods": "人造黄油",
+      "Types": "米粮调料",
+      "count": 576,
+      "transaction_count": 576,
+      "support": 0.06156477126977341
+    }
+  ],
+  "top_types": [
+    {
+      "Types": "饮料",
+      "sku_count": 11,
+      "line_count": 7594,
+      "transaction_count": 5350,
+      "line_share": 0.18485881207400195,
+      "transaction_share": 0.5718255664814023
+    },
+    {
+      "Types": "西点",
+      "sku_count": 21,
+      "line_count": 7192,
+      "transaction_count": 4730,
+      "line_share": 0.1750730282375852,
+      "transaction_share": 0.5055579307396323
+    },
+    {
+      "Types": "果蔬",
+      "sku_count": 14,
+      "line_count": 7146,
+      "transaction_count": 4282,
+      "line_share": 0.17395326192794547,
+      "transaction_share": 0.45767421975203076
+    },
+    {
+      "Types": "米粮调料",
+      "sku_count": 32,
+      "line_count": 5185,
+      "transaction_count": 3396,
+      "line_share": 0.12621713729308667,
+      "transaction_share": 0.3629756306113724
+    },
+    {
+      "Types": "百货",
+      "sku_count": 42,
+      "line_count": 5141,
+      "transaction_count": 3728,
+      "line_share": 0.1251460564751704,
+      "transaction_share": 0.39846088071825564
+    },
+    {
+      "Types": "肉类",
+      "sku_count": 16,
+      "line_count": 4870,
+      "transaction_count": 3481,
+      "line_share": 0.1185491723466407,
+      "transaction_share": 0.37206070970500216
+    },
+    {
+      "Types": "食品类",
+      "sku_count": 4,
+      "line_count": 1870,
+      "transaction_count": 1771,
+      "line_share": 0.04552093476144109,
+      "transaction_share": 0.18929029499786235
+    },
+    {
+      "Types": "零食",
+      "sku_count": 8,
+      "line_count": 1459,
+      "transaction_count": 1304,
+      "line_share": 0.03551606621226874,
+      "transaction_share": 0.1393758016246259
+    },
+    {
+      "Types": "熟食",
+      "sku_count": 9,
+      "line_count": 541,
+      "transaction_count": 502,
+      "line_share": 0.013169425511197663,
+      "transaction_share": 0.053655408294142795
+    },
+    {
+      "Types": "未分类",
+      "sku_count": 1,
+      "line_count": 82,
+      "transaction_count": 82,
+      "line_share": 0.0019961051606621227,
+      "transaction_share": 0.008764429243266354
+    }
+  ],
+  "selected_min_support": 0.01,
+  "selected_min_confidence": 0.3,
+  "selected_itemset_count": 348,
+  "selected_rule_count": 139,
+  "output_dir": "/Users/lucent/PycharmProjects/suchen/lesson/shujuwajue/lab5/shopping_basket_analysis/output"
+}

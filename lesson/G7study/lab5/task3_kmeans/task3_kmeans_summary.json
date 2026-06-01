@@ -1,0 +1,25 @@
+{
+  "task": "kmeans_iris",
+  "best_k_by_silhouette": 2,
+  "best_silhouette_score": 0.5817500491982808,
+  "metrics": [
+    {
+      "K": 2,
+      "silhouette_score": 0.5817500491982808,
+      "calinski_harabasz_score": 251.34933946458108,
+      "adjusted_rand_index_vs_true_label": 0.5681159420289855
+    },
+    {
+      "K": 3,
+      "silhouette_score": 0.45994823920518635,
+      "calinski_harabasz_score": 241.90440170183157,
+      "adjusted_rand_index_vs_true_label": 0.6201351808870379
+    },
+    {
+      "K": 4,
+      "silhouette_score": 0.38694104154427816,
+      "calinski_harabasz_score": 207.26591431569688,
+      "adjusted_rand_index_vs_true_label": 0.4728177114181946
+    }
+  ]
+}

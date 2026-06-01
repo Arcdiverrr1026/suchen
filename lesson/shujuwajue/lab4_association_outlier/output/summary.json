@@ -1,0 +1,30 @@
+{
+  "n_samples": 940,
+  "n_clusters": 3,
+  "outlier_threshold_multiplier": 2.0,
+  "outlier_threshold_value": 2.3689405835047364,
+  "n_outliers": 11,
+  "outlier_percentage": 1.1702127659574468,
+  "cluster_sizes": {
+    "0": 40,
+    "1": 340,
+    "2": 560
+  },
+  "cluster_centers_original": [
+    {
+      "R": 63.1,
+      "F": 7.45,
+      "M": 1383.04
+    },
+    {
+      "R": 14.56,
+      "F": 17.8,
+      "M": 1344.72
+    },
+    {
+      "R": 14.76,
+      "F": 4.8,
+      "M": 866.88
+    }
+  ]
+}

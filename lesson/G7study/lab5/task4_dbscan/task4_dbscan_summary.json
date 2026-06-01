@@ -1,0 +1,9 @@
+{
+  "task": "dbscan_iris",
+  "eps": 0.5,
+  "min_samples": 5,
+  "cluster_count": 2,
+  "noise_count": 34,
+  "silhouette_score": 0.6558885287002018,
+  "adjusted_rand_index_vs_true_label": 0.4420986685885924
+}
