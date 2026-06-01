@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.system.id="pyproject.toml" type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/lesson/shujuwajue/lab4_association_outlier">
+      <sourceFolder url="file://$MODULE_DIR$/lesson/shujuwajue/lab4_association_outlier/src" />
+      <excludeFolder url="file://$MODULE_DIR$/lesson/shujuwajue/lab4_association_outlier/.venv" />
+    </content>
+    <orderEntry type="jdk" jdkName="uv (lab4_association_outlier)" jdkType="Python SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
