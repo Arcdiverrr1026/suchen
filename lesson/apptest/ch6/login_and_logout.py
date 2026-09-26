@@ -5,13 +5,15 @@ from selenium import webdriver
 from selenium.webdriver.common.by import By
 
 BASE_URL = "http://xczx2-portal.itheima.net/"
-USERNAME = "***REMOVED***"
-PASSWORD = "***REMOVED***"
+USERNAME = os.getenv("XCZX_USERNAME")
+PASSWORD = os.getenv("XCZX_PASSWORD")
 
 
 class TestLoginAndLogout(unittest.TestCase):
 
     def setUp(self):
+        if not USERNAME or not PASSWORD:
+            self.skipTest("请设置 XCZX_USERNAME 和 XCZX_PASSWORD 后运行登录测试")
         self.driver = webdriver.Chrome()
         self.driver.maximize_window()
         self.driver.implicitly_wait(10)

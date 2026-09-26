@@ -6,8 +6,10 @@ from typing import Dict, Any, Optional, List  # 修改：导入 List 用于类�
 class DeepSeekAgent:
     def __init__(self, api_key: Optional[str] = None):
         """初始化DeepSeek智能体"""
-        # 获取API密钥（优先从参数获取，否则从环境变量获取）
-        self.api_key = '***REMOVED***'
+        # API 密钥只从参数或环境变量读取，避免写入源码和 Git 历史。
+        self.api_key = api_key or os.getenv("DEEPSEEK_API_KEY")
+        if not self.api_key:
+            raise ValueError("请设置 DEEPSEEK_API_KEY 环境变量或传入 api_key")
         # API端点URL
         self.api_url = "https://api.deepseek.com/v1/chat/completions"
         # HTTP请求头，包含认证信息和数据格式说明
